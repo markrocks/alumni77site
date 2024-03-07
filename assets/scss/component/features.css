@@ -1,0 +1,31 @@
+.key-featurecont {
+  position: absolute;
+  z-index: 999;
+}
+.key-featurecont .key-ro {
+  margin-top: -52px;
+  z-index: 999;
+}
+.key-featurecont .key-ro .keycol .key-cover {
+  box-shadow: 4.871px 34.659px 30px 0px rgba(0, 0, 0, 0.06);
+  background-color: #FFF;
+  display: flex;
+  padding: 15px;
+  border-radius: 8px;
+}
+.key-featurecont .key-ro .keycol .key-cover .logo-cc img {
+  max-width: 75px;
+}
+.key-featurecont .key-ro .keycol .key-cover .text-cc {
+  flex-grow: 1;
+  margin: auto 0px;
+  padding-left: 15px;
+}
+.key-featurecont .key-ro .keycol .key-cover .text-cc h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.key-featurecont .key-ro .keycol .key-cover .text-cc p {
+  font-size: 0.9rem;
+}/*# sourceMappingURL=features.css.map */

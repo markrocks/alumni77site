@@ -1,0 +1,150 @@
+.about-coo {
+  background-color: #FFF;
+  padding-top: 130px;
+}
+.about-coo .about-row {
+  margin-top: 50px;
+}
+@media only screen and (max-width: 476px) {
+  .about-coo .about-row {
+    padding-top: 90px;
+  }
+}
+.about-coo .about-row .about-img {
+  text-align: center;
+  margin: auto;
+}
+.about-coo .about-row .about-img img {
+  max-width: 80%;
+}
+@media only screen and (max-width: 767px) {
+  .about-coo .about-row .about-img img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 476px) {
+  .about-coo .about-row .about-img img {
+    margin-bottom: 30px;
+  }
+}
+.about-coo .about-row .about-text h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  line-height: 40px;
+}
+.about-coo .about-row .about-text p {
+  margin-bottom: 30px;
+}
+.about-coo .about-row .about-text .about-featur ul {
+  width: 100%;
+  margin-left: -10px;
+}
+.about-coo .about-row .about-text .about-featur ul li {
+  padding: 10px;
+  width: 50%;
+  float: left;
+  font-weight: 400;
+}
+.about-coo .about-row .about-text .about-featur ul li i {
+  margin-right: 5px;
+}
+
+.page-nav {
+  background-size: 100%;
+  padding: 68px;
+  text-align: center;
+  padding-top: 60px;
+  background-color: #f3f4f8;
+}
+.page-nav ul {
+  float: none;
+  margin: auto;
+  width: auto;
+  margin-top: 15px;
+}
+@media screen and (max-width: 992px) {
+  .page-nav {
+    background-size: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .page-nav {
+    padding-top: 100px;
+  }
+}
+@media screen and (max-width: 356px) {
+  .page-nav {
+    padding-top: 200px;
+  }
+}
+.page-nav h2 {
+  font-size: 30px;
+  width: 100%;
+  font-weight: 600;
+  color: #444;
+}
+@media screen and (max-width: 600px) {
+  .page-nav h2 {
+    font-size: 26px;
+  }
+}
+.page-nav ul li {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-size: 0.93rem;
+  font-weight: 600;
+  color: #444;
+}
+.page-nav ul li i {
+  width: 30px;
+  text-align: center;
+  color: #444;
+}
+.page-nav ul li a {
+  color: #444;
+  font-size: 0.93rem;
+  font-weight: 600;
+}
+
+/* ===================================== Our Team Style  ================================== */
+.our-team {
+  padding: 50px;
+}
+
+@media screen and (max-width: 940px) {
+  .our-team {
+    padding: 50px 10px;
+  }
+}
+.our-team .team-row {
+  margin-top: 20px;
+}
+
+.our-team .team-row .single-usr {
+  box-shadow: 0 2px 6px 0 rgba(218, 218, 253, 0.65), 0 2px 6px 0 rgba(206, 206, 238, 0.54);
+  margin-bottom: 20px;
+}
+
+.our-team .team-row .single-usr img {
+  width: 100%;
+}
+
+.our-team .team-row .single-usr .det-o {
+  padding: 20px;
+  background-color: #0363b0;
+}
+
+.our-team .team-row .single-usr .det-o h4 {
+  color: #FFF;
+  margin-bottom: 0px;
+}
+
+.our-team .team-row .single-usr .det-o i {
+  color: #FFF;
+}
+
+.cont-row {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=about.css.map */
